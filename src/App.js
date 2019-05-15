@@ -141,10 +141,10 @@ class App extends Component {
       data: {
         // usd_value: this.state.cryptos['XMR'].USD,
         cryptocurrency_name: 'Bitcoin',
-        cryptocurrency_icon_URL: '../images/xmr.png',
+        cryptocurrency_icon_URL: "https://www.cryptocompare.com/media/19633/btc.png",
         cryptocurrency_trading_symbol: 'BTC',
         cryptocurrency_token_balance: 0.0159952,
-        crypto_price: 663.3
+        crypto_price: 9121.88
       }
     }, {
 
@@ -154,10 +154,10 @@ class App extends Component {
       data: {
         // usd_value: this.state.cryptos['XMR'].USD,
         cryptocurrency_name: 'Monero',
-        cryptocurrency_icon_URL: '../images/bat.png',
+        cryptocurrency_icon_URL: 'https://www.cryptocompare.com/media/19969/xmr.png',
         cryptocurrency_trading_symbol: 'XMR',
         cryptocurrency_token_balance: 0.0159952,
-        crypto_price: 0
+        crypto_price: 259.09
       }
     }, {
       full_name: 'Flora',
@@ -166,10 +166,10 @@ class App extends Component {
       data: {
         // usd_value: this.state.cryptos['XMR'].USD,
         cryptocurrency_name: 'OmiseGO',
-        cryptocurrency_icon_URL: '../images/eos.png',
+        cryptocurrency_icon_URL: 'https://www.cryptocompare.com/media/1383814/omisego.png',
         cryptocurrency_trading_symbol: 'OMG',
         cryptocurrency_token_balance: 0.319904,
-        crypto_price: 0
+        crypto_price: 14.63
       }
     }, {
       full_name: 'Hilda',
@@ -178,10 +178,10 @@ class App extends Component {
       data: {
         // usd_value: this.state.cryptos['XMR'].USD,
         cryptocurrency_name: 'Zcash',
-        cryptocurrency_icon_URL: '../images/eos.png',
+        cryptocurrency_icon_URL: 'https://www.cryptocompare.com/media/351360/zec.png',
         cryptocurrency_trading_symbol: 'ZEC',
         cryptocurrency_token_balance: 0.319904,
-        crypto_price: 0
+        crypto_price: 0.0315
       }
     }, {
       full_name: 'Betsy',
@@ -190,10 +190,10 @@ class App extends Component {
       data: {
         // usd_value: this.state.cryptos['XMR'].USD,
         cryptocurrency_name: 'Stellar Lumens',
-        cryptocurrency_icon_URL: '../images/eos.png',
+        cryptocurrency_icon_URL: 'https://www.cryptocompare.com/media/35521289/xlm.png',
         cryptocurrency_trading_symbol: 'XLM',
         cryptocurrency_token_balance: 11.9964,
-        crypto_price: 0
+        crypto_price: 0.4281
       }
     }, {
       full_name: 'Inez',
@@ -202,9 +202,10 @@ class App extends Component {
       data: {
         // usd_value: this.state.cryptos['XMR'].USD,
         cryptocurrency_name: 'Stratis',
-        cryptocurrency_icon_URL: '../images/eos.png',
+        cryptocurrency_icon_URL: 'https://www.cryptocompare.com/media/351303/stratis-logo.png',
         cryptocurrency_trading_symbol: 'STRAT',
-        cryptocurrency_token_balance: 0.559832
+        cryptocurrency_token_balance: 0.559832,
+        crypto_price:  8.95
       }
     }, {
       full_name: 'Beulah',
@@ -213,7 +214,7 @@ class App extends Component {
       data: {
         // usd_value: this.state.cryptos['XMR'].USD,
         cryptocurrency_name: 'Litecoin',
-        cryptocurrency_icon_URL: '../images/eos.png',
+        cryptocurrency_icon_URL: 'https://www.cryptocompare.com/media/35309662/ltc.png',
         cryptocurrency_trading_symbol: 'LTC',
         cryptocurrency_token_balance: 15.35,
         crypto_price: 0.25
@@ -225,9 +226,10 @@ class App extends Component {
       data: {
         // usd_value: this.state.cryptos['XMR'].USD,
         cryptocurrency_name: 'NEO',
-        cryptocurrency_icon_URL: '../images/eos.png',
+        cryptocurrency_icon_URL: 'https://www.cryptocompare.com/media/1383858/neo.jpg',
         cryptocurrency_trading_symbol: 'NEO',
-        cryptocurrency_token_balance: 0.049985
+        cryptocurrency_token_balance: 0.049985,
+        crypto_price: 115.79
       }
     }, {
       full_name: 'Camille',
@@ -236,9 +238,10 @@ class App extends Component {
       data: {
         // usd_value: this.state.cryptos['XMR'].USD,
         cryptocurrency_name: 'Cardano',
-        cryptocurrency_icon_URL: '../images/eos.png',
+        cryptocurrency_icon_URL: 'https://www.cryptocompare.com/media/12318177/ada.png',
         cryptocurrency_trading_symbol: 'ADA',
-        cryptocurrency_token_balance: 13.9958
+        cryptocurrency_token_balance: 13.9958,
+        crypto_price: 0.3737
       }
     }, {
       full_name: 'Celia',
@@ -247,10 +250,10 @@ class App extends Component {
       data: {
         // usd_value: this.state.cryptos['XMR'].USD,
         cryptocurrency_name: 'Icon',
-        cryptocurrency_icon_URL: '../images/eos.png',
+        cryptocurrency_icon_URL: 'https://www.cryptocompare.com/media/12318192/icx.png',
         cryptocurrency_trading_symbol: 'ICX',
         cryptocurrency_token_balance: 1.309607,
-        crypto_price: 0
+        crypto_price: 4.28
       }
     }, {
       full_name: 'Edith',
@@ -259,9 +262,10 @@ class App extends Component {
       data: {
         // usd_value: this.state.cryptos['XMR'].USD,
         cryptocurrency_name: 'Waves',
-        cryptocurrency_icon_URL: '../images/eos.png',
+        cryptocurrency_icon_URL: 'https://www.cryptocompare.com/media/27010639/waves2.png',
         cryptocurrency_trading_symbol: 'WAVES',
-        cryptocurrency_token_balance: 0.819754
+        cryptocurrency_token_balance: 0.819754,
+        crypto_price: 5.93
       }
     }, {
       full_name: 'Betty',
@@ -270,10 +274,10 @@ class App extends Component {
       data: {
         // usd_value: this.state.cryptos['XMR'].USD,
         cryptocurrency_name: 'Ethereum',
-        cryptocurrency_icon_URL: '../images/eos.png',
+        cryptocurrency_icon_URL: 'https://www.cryptocompare.com/media/20646/eth_logo.png',
         cryptocurrency_trading_symbol: 'ETH',
         cryptocurrency_token_balance: 0.0059,
-        crypto_price: 0
+        crypto_price: 888.78
       }
     }, {
       full_name: 'Agnes',
@@ -282,10 +286,10 @@ class App extends Component {
       data: {
         // usd_value: this.state.cryptos['XMR'].USD,
         cryptocurrency_name: 'Steem',
-        cryptocurrency_icon_URL: '../images/eos.png',
+        cryptocurrency_icon_URL: 'https://www.cryptocompare.com/media/350907/steem.png',
         cryptocurrency_trading_symbol: 'STEEM',
         cryptocurrency_token_balance: 1.189643,
-        crypto_price: 0
+        crypto_price: 4.15
       }
     }, {
       full_name: 'Ellen',
@@ -294,10 +298,10 @@ class App extends Component {
       data: {
         // usd_value: this.state.cryptos['XMR'].USD,
         cryptocurrency_name: 'EOS',
-        cryptocurrency_icon_URL: '../images/eos.png',
+        cryptocurrency_icon_URL: 'https://www.cryptocompare.com/media/1383652/eos_1.png',
         cryptocurrency_trading_symbol: 'EOS',
         cryptocurrency_token_balance: 0.49985,
-        crypto_price: 0
+        crypto_price: 9.43
       }
     }, {
       full_name: 'Carmen',
@@ -306,10 +310,10 @@ class App extends Component {
       data: {
         // usd_value: this.state.cryptos['XMR'].USD,
         cryptocurrency_name: 'Dash',
-        cryptocurrency_icon_URL: '../images/eos.png',
+        cryptocurrency_icon_URL: 'https://www.cryptocompare.com/media/33842920/dash.png',
         cryptocurrency_trading_symbol: 'DASH',
         cryptocurrency_token_balance: 0.0079976,
-        crypto_price: 0.25
+        crypto_price: 650.2
       }
     }, {
       full_name: 'Gladys',
@@ -318,7 +322,7 @@ class App extends Component {
       data: {
         // usd_value: this.state.cryptos['XMR'].USD,
         cryptocurrency_name: 'MIOTA',
-        cryptocurrency_icon_URL: '../images/eos.png',
+        cryptocurrency_icon_URL: 'https://www.cryptocompare.com/media/35309345/no-image.png',
         cryptocurrency_trading_symbol: 'IOTA',
         cryptocurrency_token_balance: 2.9991,
         crypto_price: 0
@@ -330,21 +334,22 @@ class App extends Component {
       data: {
         // usd_value: this.state.cryptos['XMR'].USD,
         cryptocurrency_name: 'Ripple',
-        cryptocurrency_icon_URL: '../images/eos.png',
+        cryptocurrency_icon_URL: 'https://www.cryptocompare.com/media/34477776/xrp.png',
         cryptocurrency_trading_symbol: 'XRP',
         cryptocurrency_token_balance: 4.9985,
-        crypto_price: 0
+        crypto_price: 1.07
       }
     }, {
       full_name: 'Belle',
       loading: '...',
       uid: '18',
       data: {
-        // usd_value: this.state.cryptos['XMR'].USD,
+        // usd_value: this.state.cryptos['XMR'].USD, 
         cryptocurrency_name: 'Basic Attention Token',
-        cryptocurrency_icon_URL: '../images/eos.png',
+        cryptocurrency_icon_URL: 'https://www.cryptocompare.com/media/1383370/bat.png',
         cryptocurrency_trading_symbol: 'BAT',
-        cryptocurrency_token_balance: 12.9961
+        cryptocurrency_token_balance: 12.9961,
+        crypto_price: 0.3805
       }
     }, {
       full_name: 'Anita',
@@ -353,10 +358,10 @@ class App extends Component {
       data: {
         // usd_value: this.state.cryptos['XMR'].USD,
         cryptocurrency_name: 'Verge',
-        cryptocurrency_icon_URL: '../images/eos.png',
+        cryptocurrency_icon_URL: 'https://www.cryptocompare.com/media/12318032/xvg.png',
         cryptocurrency_trading_symbol: 'XVG',
         cryptocurrency_token_balance: 82.9751,
-        crypto_price: 0
+        crypto_price: 0.05657
       }
     }, {
       full_name: 'Greta',
@@ -365,10 +370,10 @@ class App extends Component {
       data: {
         // usd_value: this.state.cryptos['XMR'].USD,
         cryptocurrency_name: 'TRON',
-        cryptocurrency_icon_URL: '../images/eos.png',
+        cryptocurrency_icon_URL: 'https://www.cryptocompare.com/media/34477805/trx.jpg',
         cryptocurrency_trading_symbol: 'TRX',
         cryptocurrency_token_balance: 99.97,
-        crypto_price: 0
+        crypto_price:  0.04526
       }
     }
     ];
@@ -438,8 +443,20 @@ class App extends Component {
       }, {
         id: 'friendName5',
         Header: props => <span>Crypto Icon</span>,
-        accessor: d => (d.data.cryptocurrency_icon_URL),
-        Cell: d => <span className='number'>{d.original.cryptocurrency_icon_URL}</span>
+        // accessor: d => (d.data.cryptocurrency_icon_URL),
+        // Cell: d => <span className='number'>{d.data.cryptocurrency_icon_URL}</span>
+        accessor: d => {
+          return <div><img height={34} src={d.data.cryptocurrency_icon_URL}/></div>
+        },
+        
+        
+
+        // Header: "Crypto Icon",
+        // Cell: (row) => {
+        //   return <div><img height={34} src={row.original.cryptocurrency_icon_URL}/></div>
+        // },
+        // id: "status"
+        
 
       }, {
 
@@ -486,11 +503,6 @@ class App extends Component {
         accessor: d => (((this.state.cryptos[d.data.cryptocurrency_trading_symbol].USD-(d.data.crypto_price))/d.data.crypto_price*100)*this.state.cryptos[d.data.cryptocurrency_trading_symbol].USD)
       }]
     }
-
-
-
-
-
     return <ReactTable
       data={userGroup}
       columns={columns}

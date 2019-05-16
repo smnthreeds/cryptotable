@@ -181,7 +181,7 @@ class App extends Component {
         cryptocurrency_icon_URL: 'https://www.cryptocompare.com/media/351360/zec.png',
         cryptocurrency_trading_symbol: 'ZEC',
         cryptocurrency_token_balance: 0.319904,
-        crypto_price: 0.0315
+        crypto_price: 467.94
       }
     }, {
       full_name: 'Betsy',
@@ -217,7 +217,7 @@ class App extends Component {
         cryptocurrency_icon_URL: 'https://www.cryptocompare.com/media/35309662/ltc.png',
         cryptocurrency_trading_symbol: 'LTC',
         cryptocurrency_token_balance: 15.35,
-        crypto_price: 0.25
+        crypto_price: 195.14
       }
     }, {
       full_name: 'Gladys',
@@ -475,32 +475,19 @@ class App extends Component {
       }, {
         id: 'friendName2',
         Header: '% change in price since Feb 14, 2018',
-        // accessor:(  (d) => {
-
-        //   const b =  axios.get('https://min-api.cryptocompare.com/data/dayAvg?fsym='
-        //     + d.data.cryptocurrency_trading_symbol + '&tsym=USD&toTs=1392382854&tryConversion=false&extraParams=your_app_name')
-            
-
-        //    if ([b].USD === undefined) {
-        //      //do something here
-        //      console.log("it is undefined")
-            
-        //    } else{
-        //      console.log("it is defined")
-        //     return b.USD
-        //   }
-            
-        // })
-        accessor: d => ((this.state.cryptos[d.data.cryptocurrency_trading_symbol].USD-(d.data.crypto_price))/d.data.crypto_price*100)
+        
+        accessor: d => ( (this.state.cryptos[d.data.cryptocurrency_trading_symbol].USD  -  d.data.crypto_price  )  /  d.data.crypto_price)  *100
     
       }, {
         id: 'friendName3',
         Header: '% difference of current price and price on 2/14/18',
-        accessor: d => ((this.state.cryptos[d.data.cryptocurrency_trading_symbol].USD-(d.data.crypto_price))/d.data.crypto_price*100)
+        // accessor: d => ((this.state.cryptos[d.data.cryptocurrency_trading_symbol].USD-(d.data.crypto_price))/d.data.crypto_price*100)
+        accessor: d => Math.abs(( (this.state.cryptos[d.data.cryptocurrency_trading_symbol].USD  -  d.data.crypto_price  )  /  (d.data.crypto_price+this.state.cryptos[d.data.cryptocurrency_trading_symbol].USD)/2)  *100)
       }, {
         id: 'friendName4',
         Header: 'USD value of % changed since 2/14/18',
-        accessor: d => (((this.state.cryptos[d.data.cryptocurrency_trading_symbol].USD-(d.data.crypto_price))/d.data.crypto_price*100)*this.state.cryptos[d.data.cryptocurrency_trading_symbol].USD)
+        // accessor: d => (((this.state.cryptos[d.data.cryptocurrency_trading_symbol].USD-(d.data.crypto_price))/d.data.crypto_price*100)*this.state.cryptos[d.data.cryptocurrency_trading_symbol].USD)
+        accessor: d => ( ( ( (this.state.cryptos[d.data.cryptocurrency_trading_symbol].USD  -  d.data.crypto_price  )  /  d.data.crypto_price)  *100) / 100) * this.state.cryptos[d.data.cryptocurrency_trading_symbol].USD
       }]
     }
     return <ReactTable
